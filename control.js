@@ -1,4 +1,4 @@
-const regEx = /^[^\W][\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+const regEx = /^[^\W\d][A-Za-z0-9_\-.]+@([A-Za-z]+\.)+[A-Za-z]{2,4}$/;
 const button = document.getElementById('button');
 
 const validateEmail = (email) => {
